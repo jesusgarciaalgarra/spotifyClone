@@ -3,17 +3,10 @@
   "compilerOptions": {
     "baseUrl": "/home/toor/cursoAstro2_spotifyClon",
     "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "@/components": [
-        "src/components/*"
-      ],
-      "@/icons": [
-        "src/icons/*"
-      ]
+      "@/*": ["src/*"]
     },
     "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "jsxImportSource": "react",
+    "include": ["src/**/*", "src/components/*"]
   }
 }
